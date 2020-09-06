@@ -2,7 +2,7 @@
 # Supergraphs
 
 Implementation of the method described in *Local Patterns and Supergraph for Chemical Graph Classification with Convolutional Networks*
-(S+SSPR2018, [pdf here](https://bougleux.users.greyc.fr/articles/sspr18graphconvnet.pdf).
+(S+SSPR2018, [pdf here](https://bougleux.users.greyc.fr/articles/sspr18graphconvnet.pdf)).
 
 ## List of executables
 
@@ -24,6 +24,10 @@ For more information about this, please consult the paper.
 ## Requirements
 
 # *lsape*, *graph_lib* and *edmonds*
+
+_lsape is_ a toolbox to address the linear sum assignment problem with edition (Greyc lab).\
+_graph_lib_ is toolbox of graph algorithms, especially adressing the problem of Graph Edit Distance estimation (Greyc lab).\
+_edmonds_ is an implementation of the Edmonds-Blossom algorithm to find minimum weight perfect matchings on graphs.
 
 ```
 * lsape                 https://bougleux.users.greyc.fr/lsape
